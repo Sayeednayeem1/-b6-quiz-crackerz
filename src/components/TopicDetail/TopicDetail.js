@@ -1,15 +1,23 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEye } from '@fortawesome/free-solid-svg-icons'
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
 import Quiz from '../Quiz/Quiz';
 import './TopicDetail.css';
+
 
 const TopicDetail = ({ tp }) => {
     const { question, id, correctAnswer, options } = tp;
     // const navigate = useNavigate();
-    // console.log(correctAnswer);
+    console.log(tp);
+    const fontMeAwesome = () =>{
+        alert(correctAnswer);
+    }
     return (
         <div className='topic-detail-section'>
-            <h4>{question}</h4>
+            <div className='d-flex justify-content-between align-items-center'>
+                <h4 className='text-center'>{question}</h4>
+                <FontAwesomeIcon onClick={fontMeAwesome} icon={faEye}></FontAwesomeIcon>
+            </div>
 
             <div className='d-flex  justify-content-between'>
                 {

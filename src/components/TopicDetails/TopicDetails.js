@@ -5,10 +5,11 @@ import './TopicDetails.css';
 
 const TopicDetails = () => {
     const topic = useLoaderData();
-    // console.log(topic.data.questions);
+    console.log(topic);
     
     return (
         <div className='topic-details-section'>
+            <h4 className='text-center text-primary mt-4'>Quiz Name: {topic.data.name}</h4>
             {
                 topic.data.questions.map(tp => <TopicDetail
                 tp={tp}

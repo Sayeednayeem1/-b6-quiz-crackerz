@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 
 const Topic = ({ topic }) => {
     const { id, name, total, logo } = topic;
-    console.log(topic);
+    // console.log(topic);
     
     const navigate = useNavigate();
     
