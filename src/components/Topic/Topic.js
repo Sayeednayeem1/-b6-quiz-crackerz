@@ -5,7 +5,8 @@ import Button from 'react-bootstrap/Button';
 import { useNavigate } from 'react-router-dom';
 
 const Topic = ({ topic }) => {
-    const { id, name, logo } = topic;
+    const { id, name, total, logo } = topic;
+    console.log(topic);
     
     const navigate = useNavigate();
     
@@ -19,7 +20,7 @@ const Topic = ({ topic }) => {
                 <Card.Body>
                     <Card.Title>{name}</Card.Title>
                     <Card.Text>
-                        <p>test</p>
+                        <p>Total: {total}</p>
                     </Card.Text>
                     <Button onClick={btnHandler} variant="primary">Show Details</Button>
                 </Card.Body>

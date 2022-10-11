@@ -4,3 +4,9 @@
     padding: 20px;
     border-radius: 10px;
 }
+.ans-option{
+    background-color: lightgreen;
+}
+.ans-option:hover{
+    background-color: lightseagreen;
+}
