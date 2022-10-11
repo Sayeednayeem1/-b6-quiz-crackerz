@@ -1,13 +1,23 @@
-.topic-container{
+.topic-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin-left: 40px;
 }
-.header-under-header{
+
+.header-under-header {
     margin: 25px;
 }
-.header-under-header img{
+
+.header-under-header img {
     height: 100px;
     width: 100px;
     border-radius: 10px;
+}
+
+@media screen and (max-width: 700px) {
+    .topic-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 40px;
+    }
 }

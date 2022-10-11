@@ -8,7 +8,7 @@ const Quiz = ({ option, tp }) => {;
             alert("Your answer is correct!")
         }
         else{
-            alert("Your answer is wrong! Try again!")
+            alert("Your answer is wrong! Try again! Or click on the eye icon to see the correct answer.")
         }
     }
    

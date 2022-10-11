@@ -6,20 +6,20 @@ import './TopicDetail.css';
 
 
 const TopicDetail = ({ tp }) => {
-    const { question, id, correctAnswer, options } = tp;
+    const { question, correctAnswer, options } = tp;
     // const navigate = useNavigate();
-    console.log(tp);
+    // console.log(tp);
     const fontMeAwesome = () =>{
         alert(correctAnswer);
     }
     return (
         <div className='topic-detail-section'>
             <div className='d-flex justify-content-between align-items-center'>
-                <h4 className='text-center'>{question}</h4>
+                <h4 className='text-center'> {question}</h4>
                 <FontAwesomeIcon onClick={fontMeAwesome} icon={faEye}></FontAwesomeIcon>
             </div>
-
-            <div className='d-flex  justify-content-between'>
+            {/* d-flex  justify-content-between */}
+            <div className='is-this-test'>  
                 {
                     options.map(option => <Quiz
                         key={option.id}

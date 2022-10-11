@@ -1,5 +1,13 @@
-.topic-details-section{
+/* .topic-details-section {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 10px;
+} */
+
+@media screen and(max-width: 700px) {
+    .topic-details-section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
 }
