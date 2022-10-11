@@ -18,7 +18,7 @@ const Blog = () => {
                         useRef returns a mutable ref object whose current property is initialized to the passed argument ( initialValue ). The returned object will persist for the full lifetime of the component. In English, this means you can assign any value to current property of useRef hook and update it without causing a re-render.</p>
                 </div>
             </div>
-            <footer className='p-4 mt-4 bg-dark text-white d-flex justify-content-center text-align-center'><small>All right reserved@2022</small></footer>
+            <footer className='p-5 mt-5 bg-dark text-white d-flex justify-content-center text-align-center'><small>All right reserved@2022</small></footer>
         </div>
     );
 };

@@ -7,7 +7,7 @@ const Statistics = () => {
     console.log(data);
     return (
         <div >
-            <h4 className='text-center mb-5 text-secondary'>Simple Rechart Using Data from API!</h4>
+            <h4 className='text-center mt-5 mb-5 text-secondary'>Simple Rechart Using Data from API!</h4>
             <div className='mt-5 ms-5'>
                 <LineChart width={500} height={400} data={data}>
                     <Line type='monotone' dataKey='total' stroke='#82ca9d'></Line>
@@ -16,9 +16,9 @@ const Statistics = () => {
                     <Tooltip></Tooltip>
                 </LineChart>
             </div>
-            <div className='bg-primary mt-5'>
-                <footer className='p-4 text-info'>
-                    Alright reserved @2020
+            <div className='bg-dark mt-5'>
+                <footer className='p-4 text-white text-center'>
+                    <small>Alright reserved @2020</small>
                 </footer>
             </div>
         </div>

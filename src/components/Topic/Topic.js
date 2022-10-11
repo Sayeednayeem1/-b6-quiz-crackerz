@@ -16,11 +16,11 @@ const Topic = ({ topic }) => {
     return (
         <div>
             <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={logo} />
+                <Card.Img className='bg-info' variant="top" src={logo} />
                 <Card.Body>
                     <Card.Title>{name}</Card.Title>
                     <Card.Text>
-                        <p>Total: {total}</p>
+                        <p>Total Questions: {total}</p>
                     </Card.Text>
                     <Button onClick={btnHandler} variant="primary">Show Details</Button>
                 </Card.Body>

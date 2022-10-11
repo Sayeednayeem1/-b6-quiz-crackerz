@@ -3,3 +3,11 @@
     grid-template-columns: repeat(4, 1fr);
     margin-left: 40px;
 }
+.header-under-header{
+    margin: 25px;
+}
+.header-under-header img{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
