@@ -16,7 +16,7 @@ const TopicDetail = ({ tp }) => {
         <div className='topic-detail-section'>
             <div className='d-flex justify-content-between align-items-center'>
                 <h4 className='text-center'> {question}</h4>
-                <FontAwesomeIcon onClick={fontMeAwesome} icon={faEye}></FontAwesomeIcon>
+                <FontAwesomeIcon className='icon' onClick={fontMeAwesome} icon={faEye}></FontAwesomeIcon>
             </div>
             {/* d-flex  justify-content-between */}
             <div className='is-this-test'>  
