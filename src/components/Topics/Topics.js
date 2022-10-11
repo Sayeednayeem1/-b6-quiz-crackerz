@@ -6,7 +6,6 @@ import './Topics.css';
 
 const Topics = () => {
     const topics = useLoaderData();
-    console.log(topics);
     return (
         <div>
             <div className="topic-description d-flex justify-content-center mt-4">
