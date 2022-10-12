@@ -1,6 +1,8 @@
-<!-- This is my assignment project -->
-<!-- Project name is Master Minds -->
-<!-- Live website link =  -->
+-->This is my assignment project
+
+-->Project name is Master Minds 
+
+-->Live website link =  
 
 => In this project i created different types of routes naming Topics, Statistics and Blog.
 
