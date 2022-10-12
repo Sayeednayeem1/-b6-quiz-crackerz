@@ -2,7 +2,7 @@
 
 -->Project name is Master Minds 
 
--->Live website link =  
+-->Live website link =  https://master-minds-quiz-e1b15b.netlify.app
 
 => In this project i created different types of routes naming Topics, Statistics and Blog.
 
