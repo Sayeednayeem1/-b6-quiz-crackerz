@@ -1,3 +1,23 @@
+<!-- This is my assignment project -->
+<!-- Project name is Master Minds -->
+<!-- Live website link =  -->
+
+=> In this project i created different types of routes naming Topics, Statistics and Blog.
+
+=>In Topics route i made 4 cards with show details button.
+=>If we click the button  it will take us to a Quiz related route, where anyone can participate in answering the quiz.
+=>The are alert that the answer is right or wrong so its more fun to solve the quiz.
+
+=>In the statistics route i made a rechart based on total question. The data came from the API provided by the authority. Looks cool, you should check it out.
+
+=>In the Blog route there are the 3 question given by the programming Hero team. I provided them with answers.
+
+=>There are lots of other features you should check it out! Its Responsive, have cool header and of course don't forget the footer!!!!
+=>So why wait! Check my website out! 
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
